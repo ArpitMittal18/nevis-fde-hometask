@@ -2,6 +2,19 @@
 
 A runnable pipeline that maps Beaconcrest Advisors' Notion CRM, custodian workbook, advisor roster, and stakeholder Slack decisions into the five-entity Nevis canonical model. It combines deterministic data engineering with focused LLM stages, confidence routing, provenance, and post-mapping validation.
 
+## Process — quick read
+
+1. **Profile sources** — inventory every column, infer types, and enumerate enum/currency domains.
+2. **Ingest** — load CSV, Excel, Markdown, and Slack inputs while retaining source rows and checksums.
+3. **Apply stakeholder rules** — use Dana's documented answers for Legacy, advisor ownership, AUM, FX, duplicates, and inactive households.
+4. **Normalize deterministically** — clean strings, parse dates, standardize enums, resolve known advisor aliases, and generate stable IDs.
+5. **Extract semantic evidence with an LLM** — identify explicit relationships, aliases, annotations, and contradictions in Notion notes.
+6. **Build canonical entities** — create advisors, households, clients, accounts, and interactions.
+7. **Resolve bounded ambiguity** — ask the LLM to choose only from supplied candidates or return `null`.
+8. **Route by confidence** — auto-apply defensible mappings and quarantine unresolved records.
+9. **Add provenance and validate** — record field-level lineage and enforce IDs, relationships, currency, value, and AUM rules in Python.
+10. **Publish atomically** — write canonical data, decisions, clarifications, source profiles, and the LLM manifest only after hard validation passes.
+
 ## Setup
 
 Python 3.10+ is required (3.11 recommended).
@@ -37,6 +50,10 @@ This uses OpenAI Responses API strict JSON-schema outputs for two focused stages
 
 The produced `outputs/llm_run_manifest.json` records the provider, model, stage, latency, and real response ID for every call.
 
+### Hermes Agent and OpenAI
+
+This project was built and validated with **Hermes Agent**. Hermes was already connected to **OpenAI/OpenAI Codex**, and the committed real-run artifacts were generated through that authenticated Hermes provider using `gpt-5.6-sol`. The pipeline also supports direct OpenAI Responses API calls through `OPENAI_API_KEY`; reviewers do not need Hermes because replay mode runs locally without credentials.
+
 ### Reproducible offline replay
 
 ```bash
@@ -62,12 +79,18 @@ python -m pytest -q
 
 Artifacts are written atomically only after hard validation passes.
 
-## Mapping behavior
+## Where AI is—and is not—used
 
-- **Deterministic:** parsing, stable IDs, status/account/interaction enums, advisor roster aliases, market-value AUM, FX arithmetic, and hard validation.
-- **LLM:** unstructured-note interpretation and confidence adjudication over bounded candidate sets.
-- **Auto-apply policy:** a mapping must have a unique evidence-backed candidate, sufficient confidence, and pass every canonical constraint.
-- **Flag policy:** required advisor gaps, orphans, contradictions, stale active positions, and ambiguous household ownership are quarantined and turned into answerable questions.
+| Uses an LLM | Does not use an LLM |
+|---|---|
+| Interpret unstructured Notion page notes | Read CSV, Excel, and Markdown files |
+| Extract explicit relationships, aliases, annotations, and contradictions | Profile columns and observed value domains |
+| Adjudicate ambiguous matches against a supplied candidate list | Parse dates, clean strings, or generate stable IDs |
+| Return structured evidence and confidence | Normalize known statuses, account types, and interaction types |
+| | Calculate FX conversions or AUM |
+| | Apply stakeholder rules or validate canonical relationships |
+
+The model cannot invent an entity: it must choose a supplied candidate or return `null`. Auto-applied mappings must remain evidence-backed and pass deterministic validation. Advisor gaps, orphans, contradictions, stale active positions, and ambiguous ownership are quarantined as clarification questions.
 
 ## Knowledge layer
 
