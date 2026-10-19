@@ -94,9 +94,16 @@ The model cannot invent an entity: it must choose a supplied candidate or return
 
 `config/fx_rates.yml` caches the 2025-06-30 ECB reference rates used by the run. Numeric FX rates never come from the LLM.
 
-## Current data-quality flags
+## Next clarifications required from Dana
 
-The sample run asks Dana about missing advisor ownership, Omar Farouk's Active/Deceased contradiction, Nakamura IRA ownership, custodian-only holders, stale positions, and the Redwood Capital orphan interaction. It does not re-ask questions already resolved in Slack.
+1. Assign primary advisors to the **Delgado, Petit, Vandermeer, and Whitfield** households.
+2. Confirm whether **Omar Farouk** should remain Active, move to Inactive, or be represented as an estate/contact record.
+3. Confirm whether **Kenji Nakamura's personal IRA** belongs to Nakamura Holdings or a separate personal household.
+4. Identify the household owners for custodian-only records belonging to **Carlos Vasquez** and **Priyanka Mehta**.
+5. Decide whether to use stale balances or wait for corrected **2025-06-30** positions.
+6. Confirm whether **Redwood Capital** is an alias for an existing prospect or must first be added to the CRM.
+
+Until answered, these records remain quarantined rather than being guessed. Full evidence and proposed defaults are in `outputs/clarifications_round_2.md`.
 
 ## Production hardening
 
