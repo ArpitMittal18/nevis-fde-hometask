@@ -104,7 +104,3 @@ The model cannot invent an entity: it must choose a supplied candidate or return
 6. Confirm whether **Redwood Capital** is an alias for an existing prospect or must first be added to the CRM.
 
 Until answered, these records remain quarantined rather than being guessed. Full evidence and proposed defaults are in `outputs/clarifications_round_2.md`.
-
-## Production hardening
-
-For production, store LLM cache entries and stakeholder rules in a versioned database, add provider retries/rate limiting, use a formal FX service with holiday fallback policy, add PII controls, and publish validation/lineage metrics to monitoring.
