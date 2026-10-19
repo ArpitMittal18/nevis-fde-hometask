@@ -17,8 +17,6 @@ A runnable pipeline that maps Beaconcrest Advisors' Notion CRM, custodian workbo
 
 ## Setup
 
-Python 3.10+ is required (3.11 recommended).
-
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
