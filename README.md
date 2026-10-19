@@ -50,10 +50,6 @@ This uses OpenAI Responses API strict JSON-schema outputs for two focused stages
 
 The produced `outputs/llm_run_manifest.json` records the provider, model, stage, latency, and real response ID for every call.
 
-### Hermes Agent and OpenAI
-
-This project was built and validated with **Hermes Agent**. Hermes was already connected to **OpenAI/OpenAI Codex**, and the committed real-run artifacts were generated through that authenticated Hermes provider using `gpt-5.6-sol`. The pipeline also supports direct OpenAI Responses API calls through `OPENAI_API_KEY`; reviewers do not need Hermes because replay mode runs locally without credentials.
-
 ### Reproducible offline replay
 
 ```bash
