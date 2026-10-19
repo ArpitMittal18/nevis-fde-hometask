@@ -1,0 +1,9 @@
+{
+  "as_of_date": "2025-06-30",
+  "base": "USD",
+  "rates_to_usd": {"USD": "1", "EUR": "1.172", "CHF": "1.253878249705787953354017332"},
+  "source": "Frankfurter API (ECB reference rates)",
+  "source_url": "https://api.frankfurter.app/2025-06-30?from=EUR&to=USD,CHF",
+  "retrieved_on": "2026-10-18",
+  "note": "CHF/USD is derived as EUR/USD divided by EUR/CHF."
+}

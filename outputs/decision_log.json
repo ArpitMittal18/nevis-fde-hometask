@@ -1,0 +1,2140 @@
+{
+  "blocked_households": {
+    "Delgado": "A required primary advisor cannot be determined without guessing",
+    "Farouk": "CRM status is Active but the record is tagged Deceased",
+    "Petit": "A required primary advisor cannot be determined without guessing",
+    "Vandermeer": "A required primary advisor cannot be determined without guessing",
+    "Whitfield": "A required primary advisor cannot be determined without guessing"
+  },
+  "decisions": [
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Abramson household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 22
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Abramson household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 23
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Al-Rashid household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 11
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Ashford household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 39
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Bakker household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 47
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Bauer household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 33
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Bianchi household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 37
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Brennan household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 17
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Castellano household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 15
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Chen household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 2
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Chen household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 3
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Costa household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 32
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Delacroix household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 20
+      }
+    },
+    {
+      "candidates": [
+        "Priya Raman",
+        "Marcus Webb",
+        "Elena Sokolova",
+        "James Okafor",
+        "Sofia Marchetti",
+        "David Feldman",
+        "Grace Bennett"
+      ],
+      "confidence": 0.0,
+      "entity_type": "household",
+      "evidence": [
+        "Household: Delgado",
+        "Clients: Maria Delgado"
+      ],
+      "outcome": "flag",
+      "reason": "A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 5
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Fairbanks household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 8
+      }
+    },
+    {
+      "candidates": [
+        "Priya Raman",
+        "Marcus Webb",
+        "Elena Sokolova",
+        "James Okafor",
+        "Sofia Marchetti",
+        "David Feldman",
+        "Grace Bennett"
+      ],
+      "confidence": 0.0,
+      "entity_type": "household",
+      "evidence": [
+        "Household: Farouk",
+        "Clients: Omar Farouk"
+      ],
+      "outcome": "flag",
+      "reason": "CRM status is Active but the record is tagged Deceased",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 48
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Ferreira household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 21
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Fitzgerald household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 38
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Fournier household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 57
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Gomes household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 45
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Haddad household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 29
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Harrington household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 14
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Iyer household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 53
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Johansson household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 43
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Karimi household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 44
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Kowalski household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 18
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Kruger household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 40
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Laurent household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 52
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Lindgren household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 30
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Lindholm household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 54
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Moreau household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 49
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Nakamura household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 7
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Nasser household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 51
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Nguyen household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 16
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Nwosu household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 56
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Okonkwo household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 4
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Okoye household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 25
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Osei household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 34
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Park household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 31
+      }
+    },
+    {
+      "candidates": [
+        "Priya Raman",
+        "Marcus Webb",
+        "Elena Sokolova",
+        "James Okafor",
+        "Sofia Marchetti",
+        "David Feldman",
+        "Grace Bennett"
+      ],
+      "confidence": 0.0,
+      "entity_type": "household",
+      "evidence": [
+        "Household: Petit",
+        "Clients: Louis Petit"
+      ],
+      "outcome": "flag",
+      "reason": "A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 35
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Petrov household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 9
+      }
+    },
+    {
+      "candidates": [
+        "Dmitri Petrov"
+      ],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [
+        "Might be a duplicate — I think this got created a second time during the CRM import. Same person as the other Dmitri Petrov record."
+      ],
+      "outcome": "merged",
+      "reason": "Stakeholder-confirmed duplicate of Dmitri Petrov",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 10
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Reyes household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 42
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Rossi household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 26
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Sandberg household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 50
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Sorensen household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 19
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Sullivan household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 27
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Sullivan household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 28
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Tan household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 41
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Thompson household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 12
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Thompson household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 13
+      }
+    },
+    {
+      "candidates": [
+        "Priya Raman",
+        "Marcus Webb",
+        "Elena Sokolova",
+        "James Okafor",
+        "Sofia Marchetti",
+        "David Feldman",
+        "Grace Bennett"
+      ],
+      "confidence": 0.0,
+      "entity_type": "household",
+      "evidence": [
+        "Household: Vandermeer",
+        "Clients: Joris Vandermeer"
+      ],
+      "outcome": "flag",
+      "reason": "A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 36
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Vargas household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 55
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Voss household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 58
+      }
+    },
+    {
+      "candidates": [
+        "Priya Raman",
+        "Marcus Webb",
+        "Elena Sokolova",
+        "James Okafor",
+        "Sofia Marchetti",
+        "David Feldman",
+        "Grace Bennett"
+      ],
+      "confidence": 0.0,
+      "entity_type": "household",
+      "evidence": [
+        "Household: Whitfield",
+        "Clients: George Whitfield"
+      ],
+      "outcome": "flag",
+      "reason": "A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 6
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Yamamoto household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 24
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 1.0,
+      "entity_type": "client",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Mapped to Zhang household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+        "row": 46
+      }
+    },
+    {
+      "candidates": [
+        "Chen"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Bob & Linda Chen"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Chen",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 2
+      }
+    },
+    {
+      "candidates": [
+        "Chen"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Robert Chen"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Chen",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 3
+      }
+    },
+    {
+      "candidates": [
+        "Okonkwo"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Ada Okonkwo Revocable Trust"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Okonkwo",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 4
+      }
+    },
+    {
+      "candidates": [
+        "Delgado"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Maria Delgado"
+      ],
+      "outcome": "flag",
+      "reason": "Matched household is blocked: A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 5
+      }
+    },
+    {
+      "candidates": [
+        "Whitfield"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "G. Whitfield"
+      ],
+      "outcome": "flag",
+      "reason": "Matched household is blocked: A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 6
+      }
+    },
+    {
+      "candidates": [
+        "Nakamura"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Nakamura Holdings LLC"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Nakamura",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 7
+      }
+    },
+    {
+      "candidates": [
+        "Nakamura Holdings household",
+        "Separate Kenji Nakamura household"
+      ],
+      "confidence": 0.2,
+      "entity_type": "account",
+      "evidence": [],
+      "outcome": "flag",
+      "reason": "Kenji Nakamura's personal IRA may belong to the corporate or a separate personal household",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 8
+      }
+    },
+    {
+      "candidates": [
+        "Petrov"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Dmitri Petrov"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Petrov",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 9
+      }
+    },
+    {
+      "candidates": [
+        "Al-Rashid"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Yusuf Al-Rashid"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Al-Rashid",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 10
+      }
+    },
+    {
+      "candidates": [
+        "Thompson"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Thompson Joint"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Thompson",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 11
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 0.0,
+      "entity_type": "account",
+      "evidence": [
+        "Carlos Vasquez"
+      ],
+      "outcome": "flag",
+      "reason": "No unique existing CRM household match",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 12
+      }
+    },
+    {
+      "candidates": [
+        "Harrington"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Emily Harrington"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Harrington",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 13
+      }
+    },
+    {
+      "candidates": [
+        "Castellano"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Roberto Castellano"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Castellano",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 14
+      }
+    },
+    {
+      "candidates": [
+        "Nguyen"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Linh Nguyen"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Nguyen",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 15
+      }
+    },
+    {
+      "candidates": [
+        "Brennan"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Patrick Brennan"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Brennan",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 16
+      }
+    },
+    {
+      "candidates": [
+        "Brennan"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Patrick Brennan"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Brennan",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 17
+      }
+    },
+    {
+      "candidates": [
+        "Kowalski"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Anna Kowalski"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Kowalski",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 18
+      }
+    },
+    {
+      "candidates": [
+        "Sorensen"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Erik Sorensen"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Sorensen",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 19
+      }
+    },
+    {
+      "candidates": [
+        "Delacroix"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Camille Delacroix"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Delacroix",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 20
+      }
+    },
+    {
+      "candidates": [
+        "Ferreira"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Paulo Ferreira"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Ferreira",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 21
+      }
+    },
+    {
+      "candidates": [
+        "Abramson"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Rachel & Daniel Abramson"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Abramson",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 22
+      }
+    },
+    {
+      "candidates": [
+        "Yamamoto"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Hiroshi Yamamoto"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Yamamoto",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 23
+      }
+    },
+    {
+      "candidates": [
+        "Okoye"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Chidi Okoye"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Okoye",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 24
+      }
+    },
+    {
+      "candidates": [
+        "Rossi"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Giulia Rossi"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Rossi",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 25
+      }
+    },
+    {
+      "candidates": [
+        "Sullivan"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Megan & Tom Sullivan"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Sullivan",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 26
+      }
+    },
+    {
+      "candidates": [
+        "Haddad"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Nadia Haddad"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Haddad",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 27
+      }
+    },
+    {
+      "candidates": [
+        "Lindgren"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Sven Lindgren"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Lindgren",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 28
+      }
+    },
+    {
+      "candidates": [
+        "Park"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Jenny Park"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Park",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 29
+      }
+    },
+    {
+      "candidates": [
+        "Park"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Jenny Park"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Park",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 30
+      }
+    },
+    {
+      "candidates": [
+        "Osei"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Adaeze Osei"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Osei",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 31
+      }
+    },
+    {
+      "candidates": [
+        "Petit"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Louis Petit"
+      ],
+      "outcome": "flag",
+      "reason": "Matched household is blocked: A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 32
+      }
+    },
+    {
+      "candidates": [
+        "Vandermeer"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Joris Vandermeer"
+      ],
+      "outcome": "flag",
+      "reason": "Matched household is blocked: A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 33
+      }
+    },
+    {
+      "candidates": [
+        "Bianchi"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Francesca Bianchi"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Bianchi",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 34
+      }
+    },
+    {
+      "candidates": [
+        "Fitzgerald"
+      ],
+      "confidence": 0.99,
+      "entity_type": "account",
+      "evidence": [
+        "Bill Fitzgerald"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Fitzgerald",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 35
+      }
+    },
+    {
+      "candidates": [
+        "Ashford"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Oliver Ashford"
+      ],
+      "outcome": "flag",
+      "reason": "Active-household position is stale (2024-09-30 vs 2025-06-30)",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 36
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 0.0,
+      "entity_type": "account",
+      "evidence": [
+        "Priyanka Mehta"
+      ],
+      "outcome": "flag",
+      "reason": "No unique existing CRM household match",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 37
+      }
+    },
+    {
+      "candidates": [
+        "Kruger"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Tobias Kruger"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Kruger",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 38
+      }
+    },
+    {
+      "candidates": [
+        "Tan"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Mei Lin Tan"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Tan",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 39
+      }
+    },
+    {
+      "candidates": [
+        "Reyes"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Fernando Reyes"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Reyes",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 40
+      }
+    },
+    {
+      "candidates": [
+        "Johansson"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Astrid Johansson"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Johansson",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 41
+      }
+    },
+    {
+      "candidates": [
+        "Johansson"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Astrid Johansson"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Johansson",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 42
+      }
+    },
+    {
+      "candidates": [
+        "Karimi"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Hassan Karimi"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Karimi",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 43
+      }
+    },
+    {
+      "candidates": [
+        "Gomes"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Beatriz Gomes"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Gomes",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 44
+      }
+    },
+    {
+      "candidates": [
+        "Zhang"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Wei Zhang"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Zhang",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 45
+      }
+    },
+    {
+      "candidates": [
+        "Bakker"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Ingrid Bakker"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Bakker",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 46
+      }
+    },
+    {
+      "candidates": [
+        "Farouk"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Omar Farouk"
+      ],
+      "outcome": "flag",
+      "reason": "Matched household is blocked: CRM status is Active but the record is tagged Deceased",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 47
+      }
+    },
+    {
+      "candidates": [
+        "Moreau"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Clara Moreau"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Moreau",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 48
+      }
+    },
+    {
+      "candidates": [
+        "Sandberg"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Viktor Sandberg"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Sandberg",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 49
+      }
+    },
+    {
+      "candidates": [
+        "Nasser"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Leila Nasser"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Nasser",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 50
+      }
+    },
+    {
+      "candidates": [
+        "Laurent"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Sophie Laurent"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Laurent",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 51
+      }
+    },
+    {
+      "candidates": [
+        "Iyer"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Rajesh Iyer"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Iyer",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 52
+      }
+    },
+    {
+      "candidates": [
+        "Iyer"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Rajesh Iyer"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Iyer",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 53
+      }
+    },
+    {
+      "candidates": [
+        "Lindholm"
+      ],
+      "confidence": 1.0,
+      "entity_type": "account",
+      "evidence": [
+        "Nora Lindholm"
+      ],
+      "outcome": "auto_apply",
+      "reason": "Unique match to Lindholm",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/custodian_positions.xlsx",
+        "row": 54
+      }
+    },
+    {
+      "candidates": [
+        "Chen"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Robert Chen to Chen",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 2
+      }
+    },
+    {
+      "candidates": [
+        "Okonkwo"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Ada Okonkwo to Okonkwo",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 3
+      }
+    },
+    {
+      "candidates": [
+        "Harrington"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Emily Harrington to Harrington",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 4
+      }
+    },
+    {
+      "candidates": [
+        "Brennan"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Patrick Brennan to Brennan",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 5
+      }
+    },
+    {
+      "candidates": [
+        "Al-Rashid"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Yusuf Al-Rashid to Al-Rashid",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 6
+      }
+    },
+    {
+      "candidates": [
+        "Johansson"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Astrid Johansson to Johansson",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 7
+      }
+    },
+    {
+      "candidates": [
+        "Iyer"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Rajesh Iyer to Iyer",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 8
+      }
+    },
+    {
+      "candidates": [
+        "Park"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Jenny Park to Park",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 9
+      }
+    },
+    {
+      "candidates": [
+        "Fairbanks"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Susan Fairbanks to Fairbanks",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 10
+      }
+    },
+    {
+      "candidates": [
+        "Costa"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Miguel Costa to Costa",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 11
+      }
+    },
+    {
+      "candidates": [
+        "Bauer"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Klaus Bauer to Bauer",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 12
+      }
+    },
+    {
+      "candidates": [
+        "Lindholm"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Nora Lindholm to Lindholm",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 13
+      }
+    },
+    {
+      "candidates": [],
+      "confidence": 0.0,
+      "entity_type": "interaction",
+      "evidence": [
+        "Redwood Capital"
+      ],
+      "outcome": "flag",
+      "reason": "Interaction client does not match an existing CRM household; canonical rules forbid minting one from a meeting",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 14
+      }
+    },
+    {
+      "candidates": [
+        "Thompson"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Bill Thompson to Thompson",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 15
+      }
+    },
+    {
+      "candidates": [
+        "Nakamura"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Kenji Nakamura to Nakamura",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 16
+      }
+    },
+    {
+      "candidates": [
+        "Delgado"
+      ],
+      "confidence": 1.0,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "flag",
+      "reason": "Matched household is blocked: A required primary advisor cannot be determined without guessing",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 17
+      }
+    },
+    {
+      "candidates": [
+        "Chen"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Bob Chen to Chen",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 18
+      }
+    },
+    {
+      "candidates": [
+        "Petrov"
+      ],
+      "confidence": 0.99,
+      "entity_type": "interaction",
+      "evidence": [],
+      "outcome": "auto_apply",
+      "reason": "Resolved Petrov, Dmitri to Petrov",
+      "source_ref": {
+        "path": "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+        "row": 19
+      }
+    }
+  ],
+  "outcome_counts": {
+    "auto_apply": 111,
+    "flag": 16,
+    "merged": 1
+  },
+  "page_signals": {
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Adaeze Osei 74cdc7071d5ac59694c0cef751a20f3b.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "Adaeze Osei came across in the Harborline acquisition.",
+        "The note states that Adaeze Osei is well looked after.",
+        "David picked up Adaeze Osei straight away."
+      ],
+      "confidence": 0.99,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Came across in the **Harborline** acquisition.",
+        "Well looked after — David picked her up straight away."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Bill Thompson e0ea94eab381f9be6af6053dcea6adef.md": {
+      "account_ownership": [
+        "Bill Thompson has a joint account with his wife Sarah."
+      ],
+      "aliases": [],
+      "annotations": [
+        "Bill Thompson left the firm in 2023.",
+        "The last position is being wound down."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Joint account with his wife Sarah.",
+        "Left us in 2023 — we're winding down the last position."
+      ],
+      "relationships": [
+        "Sarah is Bill Thompson's wife."
+      ]
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Francesca Bianchi 2f805d00ae83a3f8912fb9e4de2a517d.md": {
+      "account_ownership": [
+        "Francesca Bianchi has an account held with a Swiss custodian."
+      ],
+      "aliases": [],
+      "annotations": [
+        "Francesca Bianchi is based in Geneva.",
+        "The account is denominated in francs."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Based in Geneva",
+        "account held with a Swiss custodian in **francs**"
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/George Whitfield c4eea67c71c42bc50d60fac055a7f817.md": {
+      "account_ownership": [
+        "George Whitfield needs to be reassigned to a current firm member."
+      ],
+      "aliases": [],
+      "annotations": [
+        "The note does not identify a current assignee."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Another **Harborline** client.",
+        "Anna was looking after him before she left the firm",
+        "needs reassigning to someone current."
+      ],
+      "relationships": [
+        "George Whitfield is a Harborline client.",
+        "Anna previously looked after George Whitfield.",
+        "Anna left the firm."
+      ]
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Kenji Nakamura f60fdd79238271eb1e79a13e700f29d7.md": {
+      "account_ownership": [
+        "Kenji Nakamura opened a personal IRA last year.",
+        "The bulk of the assets sit in Nakamura Holdings LLC."
+      ],
+      "aliases": [],
+      "annotations": [
+        "It is uncertain whether the personal IRA should be reported under the LLC household or treated as Kenji Nakamura's own; flagged for operations."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Authorized signer on **Nakamura Holdings LLC**",
+        "the family investment company — that's where the bulk of the assets sit",
+        "Also opened a **personal IRA** last year.",
+        "Not sure whether we report the IRA under the LLC household or treat it as his own — flag for ops."
+      ],
+      "relationships": [
+        "Kenji Nakamura is associated with Nakamura Holdings LLC as an authorized signer.",
+        "Nakamura Holdings LLC is the family investment company."
+      ]
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Linda Chen 47f0cf4daee3f0c2a4e40c8dbe824c4f.md": {
+      "account_ownership": [
+        "Linda Chen and Robert Chen jointly own an account.",
+        "Robert Chen has a rollover IRA under his own name."
+      ],
+      "aliases": [],
+      "annotations": [
+        "Robert Chen is the main point of contact."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Wife of Robert Chen — same household.",
+        "They hold a **joint account** together",
+        "Robert also has a rollover IRA under his own name.",
+        "Main point of contact is Robert."
+      ],
+      "relationships": [
+        "Linda Chen is the wife of Robert Chen.",
+        "Linda Chen and Robert Chen are in the same household."
+      ]
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Louis Petit 511f8b2f3888427eb1de64c9d64b5928.md": {
+      "account_ownership": [
+        "Louis Petit is associated with the Harborline book."
+      ],
+      "aliases": [],
+      "annotations": [
+        "No proper advisor of record was ever assigned."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "**Harborline** book.",
+        "Never got a proper advisor of record assigned."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Maria Delgado 504504a658098bb6f57fb7ae5ad93776.md": {
+      "account_ownership": [
+        "Marcus has been servicing Maria Delgado's account.",
+        "Maria Delgado does not have a proper advisor of record assigned."
+      ],
+      "aliases": [],
+      "annotations": [
+        "Maria Delgado came over in the Harborline acquisition in 2019.",
+        "A proper advisor of record should be assigned."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Came over in the **Harborline** acquisition back in 2019.",
+        "Marcus has been servicing the account",
+        "she doesn't really have a proper advisor of record assigned — should sort that out."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Mei Lin Tan 32e22ca3b8a148db06155490de3fcff6.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "Mei Lin Tan prefers to be contacted only by email."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Prefers to be contacted by email only."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Petrov, Dmitri 4ab17f9253d0bc71de5c4185515370ce.md": {
+      "account_ownership": [],
+      "aliases": [
+        "Petrov, Dmitri",
+        "Dmitri Petrov"
+      ],
+      "annotations": [
+        "Possible duplicate record created during the CRM import.",
+        "The note identifies this record as the same person as another Dmitri Petrov record."
+      ],
+      "confidence": 0.99,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Might be a duplicate — I think this got created a second time during the CRM import.",
+        "Same person as the other Dmitri Petrov record."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Sophie Laurent 99068c0d90fd724265d0f3bded80c549.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "Sophie Laurent was referred by an existing client."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Referred by an existing client."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Wei Zhang b669d445f44ad9320c511ce9247f8236.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "Wei Zhang reviews the portfolio with the team each quarter."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Reviews the portfolio with the team each quarter."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7/Yusuf Al-Rashid 271b01a3d937a59bbd379724d5ceef92.md": {
+      "account_ownership": [
+        "Yusuf Al-Rashid has an account held with a European custodian.",
+        "The account is denominated in euros."
+      ],
+      "aliases": [],
+      "annotations": [
+        "Yusuf Al-Rashid is based in Geneva."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Based in Geneva",
+        "his account is held with a European custodian in **euros**"
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd/Intro Call — Redwood Capital 0207617519fc6144985837ff683d1c9f.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "The subject is a referred lead.",
+        "The lead is not yet in the CRM."
+      ],
+      "confidence": 1,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Referred lead — not in the CRM yet."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd/Portfolio check-in — Bob Chen 3e5f69e5eeb268957229b3569ed68d8e.md": {
+      "account_ownership": [],
+      "aliases": [
+        "Bob is used as the name for Bob Chen."
+      ],
+      "annotations": [
+        "A portfolio check-in occurred with Bob."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Portfolio check-in — Bob Chen",
+        "Quick portfolio check-in with Bob."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd/Review — Nakamura 7fbe83c9e9cc7ce37420b41a9a5e57a1.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "The family is still deciding whether Kenji's IRA should be held under the LLC or independently; no ownership structure has been finalized."
+      ],
+      "confidence": 1.0,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Family still deciding whether Kenji's IRA sits under the LLC or on its own."
+      ],
+      "relationships": []
+    },
+    "/Users/arpitmittal/Desktop/nevis-fde-hometask/sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd/Review — Thompson 0ec3b6934e8eb3d3cc516609e44b229f.md": {
+      "account_ownership": [],
+      "aliases": [],
+      "annotations": [
+        "The note discusses winding down.",
+        "An unspecified party asked about possibly re-engaging next year.",
+        "The referent of \"they\" is not explicitly identified."
+      ],
+      "confidence": 0.99,
+      "contradictions": [],
+      "evidence_quotes": [
+        "Discussed winding down, but they asked about possibly re-engaging next year."
+      ],
+      "relationships": []
+    }
+  }
+}

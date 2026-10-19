@@ -1,0 +1,119 @@
+{
+  "rules": [
+    {
+      "rule_id": "legacy_active_v1",
+      "scope": "beaconcrest",
+      "priority": 100,
+      "status": "active",
+      "source": "sources/ops_slack_thread.md:9-24",
+      "asked_question": "What does Legacy mean operationally?",
+      "answer": "Legacy is the Harborline book acquired in 2019. These are normal active clients; retain the lineage for reporting.",
+      "conditions": {
+        "all": [
+          {"dataset": "clients", "field": "Status", "operator": "normalized_equals", "value": "legacy"}
+        ]
+      },
+      "effect": {
+        "set": {"household.status": "ACTIVE"},
+        "add_tags": ["acquired_from:harborline"]
+      }
+    },
+    {
+      "rule_id": "advisor_ownership_v1",
+      "scope": "beaconcrest",
+      "priority": 100,
+      "status": "active",
+      "source": "sources/ops_slack_thread.md:26-45",
+      "asked_question": "Which field is the real household advisor, and what should happen when Advisor is blank?",
+      "answer": "Advisor owns the relationship. Service Rep only handles day-to-day work and must not be used as a fallback. Blank Advisor values require clarification; A. Novak is a former contractor and requires reassignment.",
+      "conditions": {
+        "all": [
+          {"dataset": "clients", "operation": "resolve_household_primary_advisor"}
+        ]
+      },
+      "effect": {
+        "advisor_source_field": "Advisor",
+        "forbid_fallback_field": "Service Rep",
+        "on_missing_advisor": "flag_for_clarification",
+        "reassignment_values": ["A. Novak"]
+      }
+    },
+    {
+      "rule_id": "aum_market_value_v1",
+      "scope": "beaconcrest",
+      "priority": 100,
+      "status": "active",
+      "source": "sources/ops_slack_thread.md:47-53",
+      "asked_question": "Should AUM use Market Value or Cost Basis?",
+      "answer": "AUM always means market value as of the most recent quarter-end. Cost basis is only for tax reporting.",
+      "conditions": {
+        "all": [
+          {"dataset": "custodian_positions", "operation": "map_account_value"}
+        ]
+      },
+      "effect": {
+        "canonical_field": "account.market_value_usd",
+        "source_field": "Market_Value",
+        "ignore_fields": ["Cost_Basis"]
+      }
+    },
+    {
+      "rule_id": "reporting_currency_usd_v1",
+      "scope": "beaconcrest",
+      "priority": 100,
+      "status": "active",
+      "source": "sources/ops_slack_thread.md:55-62",
+      "asked_question": "How should non-USD balances be handled for reporting?",
+      "answer": "Report everything in USD. Convert foreign balances using a documented quarter-end FX rate and note the conversion.",
+      "conditions": {
+        "all": [
+          {"dataset": "custodian_positions", "field": "Currency", "operator": "normalized_not_equals", "value": "usd"}
+        ]
+      },
+      "effect": {
+        "convert": {"source_field": "Market_Value", "target_field": "market_value_usd", "target_currency": "USD"},
+        "preserve": {"source_field": "Currency", "target_field": "currency_original"},
+        "rate_policy": "quarter_end_documented_rate"
+      }
+    },
+    {
+      "rule_id": "petrov_duplicate_v1",
+      "scope": "beaconcrest",
+      "priority": 100,
+      "status": "active",
+      "source": "sources/ops_slack_thread.md:64-72",
+      "asked_question": "Are Dmitri Petrov and Petrov, Dmitri the same person?",
+      "answer": "Yes. They are a known duplicate created during the Notion import and should be collapsed.",
+      "conditions": {
+        "all": [
+          {"dataset": "clients", "field": "Name", "operator": "normalized_in", "values": ["dmitri petrov", "petrov dmitri"]},
+          {"dataset": "clients", "field": "Client Since", "operator": "same_across_candidates"}
+        ]
+      },
+      "effect": {
+        "merge_into": "Dmitri Petrov",
+        "canonical_household": "Petrov",
+        "retain_all_source_provenance": true
+      }
+    },
+    {
+      "rule_id": "thompson_inactive_v1",
+      "scope": "beaconcrest",
+      "priority": 100,
+      "status": "active",
+      "source": "sources/ops_slack_thread.md:64-72",
+      "asked_question": "How should the Former/Churned Thompson household be treated?",
+      "answer": "The household left in 2023 and is winding down its final account. Mark it inactive and exclude it from active AUM.",
+      "conditions": {
+        "all": [
+          {"dataset": "clients", "field": "Household", "operator": "normalized_contains", "value": "thompson"}
+        ]
+      },
+      "effect": {
+        "set": {"household.status": "INACTIVE"},
+        "exclude_from": ["active_aum_usd"],
+        "retain_accounts": true
+      }
+    }
+  ]
+}

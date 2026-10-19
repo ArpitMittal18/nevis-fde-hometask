@@ -1,0 +1,1 @@
+Extract only explicit household relationships, aliases, account ownership facts, contradictions, and meaningful annotations from one CRM page. Return structured JSON with exact evidence quotes. Never invent a fact.

@@ -1,0 +1,5 @@
+{
+  "status": {"active":"ACTIVE","client":"ACTIVE","legacy":"ACTIVE","former":"INACTIVE","churned":"INACTIVE","prospect":"PROSPECT"},
+  "account_type": {"individual":"INDIVIDUAL","joint wros":"JOINT","joint tic":"JOINT","trust-rev":"TRUST","rollover ira":"IRA","ira":"IRA","roth ira":"ROTH_IRA","corporate":"CORPORATE"},
+  "interaction_type": {"annual review":"REVIEW","check-in":"REVIEW","qbr":"REVIEW","review":"REVIEW","prospecting":"PROSPECTING","intro call":"PROSPECTING","discovery":"PROSPECTING","onboarding":"ONBOARDING"}
+}

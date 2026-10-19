@@ -1,0 +1,486 @@
+{
+  "csv_files": [
+    {
+      "columns": [
+        {
+          "distinct_count": 7,
+          "examples": [
+            "ADV-001",
+            "ADV-002",
+            "ADV-003",
+            "ADV-004",
+            "ADV-005"
+          ],
+          "name": "advisor_id",
+          "non_null_count": 7,
+          "null_count": 0,
+          "row_count": 7,
+          "type": "identifier"
+        },
+        {
+          "distinct_count": 7,
+          "examples": [
+            "David Feldman",
+            "Elena Sokolova",
+            "Grace Bennett",
+            "James Okafor",
+            "Marcus Webb"
+          ],
+          "name": "full_name",
+          "non_null_count": 7,
+          "null_count": 0,
+          "row_count": 7,
+          "type": "text"
+        },
+        {
+          "distinct_count": 3,
+          "name": "role",
+          "non_null_count": 7,
+          "null_count": 0,
+          "row_count": 7,
+          "type": "enum",
+          "values": [
+            "Advisor",
+            "Relationship Manager",
+            "Senior Advisor"
+          ]
+        },
+        {
+          "distinct_count": 4,
+          "name": "office",
+          "non_null_count": 7,
+          "null_count": 0,
+          "row_count": 7,
+          "type": "enum",
+          "values": [
+            "Boston",
+            "Chicago",
+            "New York",
+            "San Francisco"
+          ]
+        }
+      ],
+      "dataset": "advisor_roster",
+      "path": "sources/advisor_roster.csv",
+      "row_count": 7
+    },
+    {
+      "columns": [
+        {
+          "distinct_count": 57,
+          "examples": [
+            "Ada Okonkwo",
+            "Adaeze Osei",
+            "Amara Nwosu",
+            "Anna Kowalski",
+            "Astrid Johansson"
+          ],
+          "name": "Name",
+          "non_null_count": 57,
+          "null_count": 0,
+          "row_count": 57,
+          "type": "text"
+        },
+        {
+          "distinct_count": 7,
+          "name": "Status",
+          "non_null_count": 57,
+          "null_count": 0,
+          "row_count": 57,
+          "type": "enum",
+          "values": [
+            "Active",
+            "Churned",
+            "Client",
+            "Former",
+            "Legacy",
+            "Prospect",
+            "active "
+          ]
+        },
+        {
+          "distinct_count": 9,
+          "name": "Advisor",
+          "non_null_count": 53,
+          "null_count": 4,
+          "row_count": 57,
+          "type": "enum",
+          "values": [
+            "David Feldman",
+            "E. Sokolova",
+            "Elena Sokolova",
+            "Grace Bennett",
+            "James Okafor",
+            "Marcus Webb",
+            "P. Raman",
+            "Priya Raman",
+            "Sofia Marchetti"
+          ]
+        },
+        {
+          "distinct_count": 2,
+          "name": "Service Rep",
+          "non_null_count": 5,
+          "null_count": 52,
+          "row_count": 57,
+          "type": "enum",
+          "values": [
+            "A. Novak",
+            "Marcus Webb"
+          ]
+        },
+        {
+          "distinct_count": 53,
+          "examples": [
+            "Abramson Household",
+            "Al-Rashid",
+            "Ashford",
+            "Bakker Household",
+            "Bauer Household"
+          ],
+          "name": "Household",
+          "non_null_count": 56,
+          "null_count": 1,
+          "row_count": 57,
+          "type": "text"
+        },
+        {
+          "distinct_count": 4,
+          "name": "Segment",
+          "non_null_count": 57,
+          "null_count": 0,
+          "row_count": 57,
+          "type": "enum",
+          "values": [
+            "Corporate",
+            "HNW",
+            "High Net Worth",
+            "Mass Affluent"
+          ]
+        },
+        {
+          "distinct_count": 49,
+          "examples": [
+            "April 18, 2014",
+            "April 26, 2016",
+            "April 27, 2013",
+            "April 3, 2018",
+            "August 27, 2019"
+          ],
+          "name": "Client Since",
+          "non_null_count": 57,
+          "null_count": 0,
+          "row_count": 57,
+          "type": "date"
+        },
+        {
+          "distinct_count": 2,
+          "examples": [
+            "www.example-chen.com",
+            "www.nakamura-holdings.example"
+          ],
+          "name": "Website",
+          "non_null_count": 2,
+          "null_count": 55,
+          "row_count": 57,
+          "type": "url"
+        },
+        {
+          "distinct_count": 5,
+          "name": "Risk Profile",
+          "non_null_count": 50,
+          "null_count": 7,
+          "row_count": 57,
+          "type": "enum",
+          "values": [
+            "Aggressive",
+            "Balanced",
+            "Conservative",
+            "Growth",
+            "Moderate"
+          ]
+        },
+        {
+          "distinct_count": 7,
+          "name": "Fee Schedule",
+          "non_null_count": 52,
+          "null_count": 5,
+          "row_count": 57,
+          "type": "enum",
+          "values": [
+            "0.85%",
+            "0.85% – negotiated",
+            "1.00%",
+            "1.10%",
+            "See LOE",
+            "Tier 1",
+            "Tier 2"
+          ]
+        },
+        {
+          "distinct_count": 3,
+          "examples": [
+            "Emily Harrington",
+            "Gregory Palme",
+            "Seminar 2023"
+          ],
+          "name": "Referred By",
+          "non_null_count": 3,
+          "null_count": 54,
+          "row_count": 57,
+          "type": "text"
+        },
+        {
+          "distinct_count": 5,
+          "name": "Tags",
+          "non_null_count": 5,
+          "null_count": 52,
+          "row_count": 57,
+          "type": "multi_enum",
+          "values": [
+            "Deceased",
+            "Do Not Contact",
+            "ESG",
+            "Held Away",
+            "VIP"
+          ]
+        }
+      ],
+      "dataset": "clients",
+      "path": "sources/notion_export/Clients 484b3fe4ea9195d2052e7bc37063ffc7.csv",
+      "row_count": 57
+    },
+    {
+      "columns": [
+        {
+          "distinct_count": 18,
+          "examples": [
+            "Annual Review — Johansson",
+            "Check-in — Harrington",
+            "Discovery — Bauer",
+            "Intro Call — Costa",
+            "Intro Call — Fairbanks"
+          ],
+          "name": "Name",
+          "non_null_count": 18,
+          "null_count": 0,
+          "row_count": 18,
+          "type": "text"
+        },
+        {
+          "distinct_count": 18,
+          "examples": [
+            "Ada Okonkwo",
+            "Astrid Johansson",
+            "Bill Thompson",
+            "Bob Chen",
+            "Emily Harrington"
+          ],
+          "name": "Client",
+          "non_null_count": 18,
+          "null_count": 0,
+          "row_count": 18,
+          "type": "text"
+        },
+        {
+          "distinct_count": 8,
+          "name": "Type",
+          "non_null_count": 18,
+          "null_count": 0,
+          "row_count": 18,
+          "type": "enum",
+          "values": [
+            "Annual Review",
+            "Check-in",
+            "Discovery",
+            "Intro Call",
+            "Onboarding",
+            "Prospecting",
+            "QBR",
+            "Review"
+          ]
+        },
+        {
+          "distinct_count": 18,
+          "examples": [
+            "April 2, 2025",
+            "April 20, 2025",
+            "April 30, 2025",
+            "February 18, 2025",
+            "January 15, 2025"
+          ],
+          "name": "Date",
+          "non_null_count": 18,
+          "null_count": 0,
+          "row_count": 18,
+          "type": "date"
+        },
+        {
+          "distinct_count": 10,
+          "name": "Attendee",
+          "non_null_count": 17,
+          "null_count": 1,
+          "row_count": 18,
+          "type": "enum",
+          "values": [
+            "A. Novak",
+            "David Feldman",
+            "E. Sokolova",
+            "Elena Sokolova",
+            "Grace Bennett",
+            "James Okafor",
+            "Marcus Webb",
+            "P. Raman",
+            "Priya Raman",
+            "Sofia Marchetti"
+          ]
+        }
+      ],
+      "dataset": "meetings",
+      "path": "sources/notion_export/Meetings 2b26fa77d1142f88db92d6b69dc697fd.csv",
+      "row_count": 18
+    }
+  ],
+  "description": "Source schema and value profile generated before canonical mapping",
+  "type_legend": {
+    "boolean": "True/false value",
+    "currency_amount": "Monetary amount requiring an associated currency",
+    "currency_code": "ISO-like currency category; values lists observed currencies",
+    "date": "Date or date-like source value",
+    "enum": "Single categorical value; values lists the observed domain",
+    "identifier": "Stable source identifier, not a category",
+    "multi_enum": "Comma-separated categorical values",
+    "number": "Non-currency numeric value",
+    "text": "Free text, name, or reference-like value",
+    "url": "Web address"
+  },
+  "workbooks": [
+    {
+      "columns": [
+        {
+          "distinct_count": 53,
+          "examples": [
+            "CU-5001",
+            "CU-5002",
+            "CU-5003",
+            "CU-5004",
+            "CU-5005"
+          ],
+          "name": "Account_Number",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "identifier"
+        },
+        {
+          "distinct_count": 49,
+          "examples": [
+            "Ada Okonkwo Revocable Trust",
+            "Adaeze Osei",
+            "Anna Kowalski",
+            "Astrid Johansson",
+            "Beatriz Gomes"
+          ],
+          "name": "Account_Holder",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "text"
+        },
+        {
+          "distinct_count": 8,
+          "name": "Account_Type",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "enum",
+          "values": [
+            "Corporate",
+            "IRA",
+            "Individual",
+            "Joint TIC",
+            "Joint WROS",
+            "Rollover IRA",
+            "Roth IRA",
+            "Trust-Rev"
+          ]
+        },
+        {
+          "distinct_count": 46,
+          "examples": [
+            "1220000",
+            "12400",
+            "1240000",
+            "1340000",
+            "1450000"
+          ],
+          "name": "Market_Value",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "currency_amount"
+        },
+        {
+          "distinct_count": 4,
+          "examples": [
+            "1100000",
+            "1750000",
+            "1980000",
+            "750000"
+          ],
+          "name": "Cost_Basis",
+          "non_null_count": 4,
+          "null_count": 49,
+          "row_count": 53,
+          "type": "currency_amount"
+        },
+        {
+          "distinct_count": 3,
+          "name": "Currency",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "currency_code",
+          "values": [
+            "CHF",
+            "EUR",
+            "USD"
+          ]
+        },
+        {
+          "distinct_count": 4,
+          "examples": [
+            "2023-09-30",
+            "2024-09-30",
+            "2024-12-31",
+            "2025-06-30"
+          ],
+          "name": "As_Of_Date",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "date"
+        },
+        {
+          "distinct_count": 5,
+          "name": "Custodian",
+          "non_null_count": 53,
+          "null_count": 0,
+          "row_count": 53,
+          "type": "enum",
+          "values": [
+            "Fidelity",
+            "Lombard Intl",
+            "Pershing",
+            "Pictet",
+            "Schwab"
+          ]
+        }
+      ],
+      "dataset": "custodian_positions",
+      "path": "sources/custodian_positions.xlsx",
+      "row_count": 53,
+      "sheet": "Positions"
+    }
+  ]
+}
